@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@font-face {
+    font-family: 'indulekha';
+    src: url(../fonts/Indulekha.ttf);
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+    /* Header styles */
+
+.header-main{
+    background: #002D62;
+    height: 7.1875rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-container{
+    padding: 2rem 6rem;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+.nav-list a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    padding: .5rem;
+    transition: .3s;
+}
+.nav-list a:hover{
+    opacity: .5;
+}
+.main-logo img{
+    height: 9.5rem;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border-radius: 5.75rem;
+    border: 6px solid white;
+}
+
+        /* Spotlight styles */
+
+.spotlight-section{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url(/images/background.png);
+    height: 100vh;
+    background-size: cover;
+}
+.breaking-news h1{
+    background-color: black;
+    font-family: 'indulekha';
+    color: white;
+    max-height: fit-content;
+    margin-top: .5rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: .5rem;
+    border-radius: .2rem;
+}
+.breaking-news{
+    height: 80vh;
+    max-width: fit-content;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.spotlight-container{
+    padding: 0rem 10rem;
+}
+
+.breaking-readmore{
+    max-width: fit-content;
+    margin-top: 1.5rem;
+}
+.breaking-readmore a{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: .7rem 2rem;
+    border-radius: .2rem;
+    background-color: #002D62;
+    transition: opacity .2s;
+}
+.breaking-readmore a:hover{
+    opacity: .8;
+}
+
+        /* Ad banner */
+
+.ad-banner-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    max-width: 100%;
+    height: 11rem;
+    max-height: 11rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 2.875rem;
+    margin: 4rem auto ;
+}
+
+        /* Latest news section , Cricket news section */
+
+.latest-news-container,.cricket-news-container,.football-news-container,.other-news-container{
+    padding: 1rem 15rem;
+}
+.latest-new-heading h1,.cricket-news-heading h1{
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+    padding: 0rem .5rem;
+    font-size: 1.5rem;
+}
+.cricket-news-heading,.latest-new-heading{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 65rem;
+    margin: 0rem auto;
+}
+.l-n-c-1-1,.l-n-c-1-2,.c-n-c-1-1,.c-n-c-1-2{
+    max-width: 14.625rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25);
+    /* margin-right: 1rem; */
+    max-width: fit-content;
+}
+.l-n-c-1,.c-n-c-1{
+    margin-bottom: 3rem;
+}
+.l-n-desc,.c-n-desc{
+    max-width: 100%;
+}
+.l-n-desc p,.c-n-desc p{
+    padding: .5rem .5rem 0rem .5rem;
+    font-size: larger;
+    font-weight: bold;
+}
+.l-n-m-d,.c-n-m-d{
+    padding: 4rem 0rem;
+    justify-content: center;
+    gap: 1rem;
+}
+.l-n-d-p,.c-n-d-p{
+    font-family: 'Inter',sans-serif;
+    padding: 0rem .5rem;
+    font-size: .7rem;
+}
+.l-n-c-m a,.c-n-c-m a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+.l-n-c-m-2,.c-n-c-m-2{
+    background: url(../images/FolUlW-aEAAen_B\ 24.png);
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    max-width: 22.1875rem;
+    display: flex;
+    justify-content: center;
+}
+.football-news-section .c-n-c-m-2{
+    background: url(../images/FolUlW-aEAAen_B\ 145.png) !important;
+    background-size: cover !important;
+}
+.l-n-c-2-1,.c-n-c-2-1{
+    position: absolute;
+    bottom: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.l-n-c-2-1 p,.c-n-c-2-1 p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+   background-color: black;
+   border-radius: .2rem;
+   padding: .2rem;
+}
+.l-n-c-2-1 span,.c-n-c-2-1 span{
+    border-radius: .2rem;
+    font-size: .7rem;
+    color: white;
+    background-color: black;
+    padding: .3rem !important;
+    max-width: fit-content;
+}
+.after-cricket-section-container{
+    padding: 11rem 0rem;
+}
+.cric-more-c-1{
+    justify-content: center;
+}
+.after-cricket-section .cric-more-c-1 a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.webstories-h h1{
+    font-family: 'Inter',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.webstories-h{
+    margin: 2rem 0rem;
+}
+.webstories-container{
+    padding: 10rem 15rem;
+    justify-content: center;
+}
+.webstories-c-1{
+    overflow: hidden;
+}
+.webstories-c-1 .webstories-c{
+    padding: 1rem;
+}
+
+        /* Footer Styles */
+
+.footer-main{
+    background-color: #002D62;
+}
+.footer-logo{
+    margin: 0 auto;
+    padding: .5rem 0rem;
+    max-width: fit-content;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-list a{
+    font-family: 'Inter',sans-serif;
+    color: white;
+    font-size: .9rem;
+    text-decoration: none;
+    padding: .5rem;
+    margin: .5rem;
+    transition: opacity .2s ease-in-out;
+}
+.footer-list a:hover{
+    opacity: .7;
+}
+.footer-bottom-main{
+    justify-content: space-between;
+    color: white;
+    font-family: 'Inter',sans-serif !important;
+    font-size: .8rem;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.footer-handles i{
+    margin: 0rem .5rem;
+    padding: .5rem;
+}
+.footer-handles a{
+    text-decoration: none;
+    color: white;
+}
+.footer-lang{
+    align-items: center;
+    max-width: 9.5625rem;
+    width: 100%;
+}
+.footer-lang svg{
+    margin: 0rem .5rem;
+    fill: white;
+    transform: rotate(-45deg);
+    margin-top: -5px;
+}
