@@ -24,16 +24,17 @@
 <body>
     <header>
         <div class="header-main header-container">
-            <div class="main-logo">
-                <a href="#"><img src="./images/cricporter 1.png" alt=""></a>
-            </div>
+            <a href="#">
+                <div class="main-logo">
+                </div>
+            </a>
             <div class="nav-list">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Cricket</a></li>
-                    <li><a href="#">Football</a></li>
-                    <li><a href="#">Other Sports</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="./cricket/">Cricket</a></li>
+                    <li><a href="./football">Football</a></li>
+                    <li><a href="./others/">Other Sports</a></li>
+                    <li><a href="#contact-sec">About Us</a></li>
                 </ul>
             </div>
         </div>
@@ -435,6 +436,7 @@
                         <a href="#"><img src="./images/Rectangle 265.png" alt=""></a>
                     </div>
                 </div>
+                <div class="dots"></div>
             </div>
         </section>
         <section class="other-news-section other-news-container">
@@ -497,7 +499,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="contact-sec">
         <div class="footer-main">
             <div class="footer-logo">
                 <img src="./images/cricporter 2.png" alt="">
@@ -507,7 +509,7 @@
                     <ul class="footer-list">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="./privacy_policy/">Privacy Policy</a></li>
                         <li><a href="#">YouTube</a></li>
                     </ul>
                 </nav>
@@ -539,7 +541,8 @@
             items:4,
             lazyLoad:true,
             loop:true,
-            margin:10
+            margin:10,
+            center:true
         });
         
         });
