@@ -39,21 +39,68 @@
             </div>
         </div>
     </header>
-    <section class="spotlight-section spotlight-container overlay">
-        <div class="spotlight-text">
-            <div class="breaking-news">
-                <div class="breaking-news-h">
-                    <h1>ഐ പി എല്ലിൽ അര്‍ധ സെഞ്ച്വറിൽ </h1>
-                </div>
-                <div class="breaking-news-h">
-                    <h1>അർധ സെഞ്ച്വറി നേടി ധവാൻ</h1>
-                </div>
-                <div class="breaking-readmore">  
-                    <a href="./news/" class="spotlight-readmore">Read More</a>
+    <div class="owl-carousel-2 owl-carousel">
+        <div class="spotlight-section spotlight-container overlay">
+            <div class="spotlight-text">
+                <div class="breaking-news">
+                    <div class="breaking-news-h">
+                        <h1>ഐ പി എല്ലിൽ അര്‍ധ സെഞ്ച്വറിൽ </h1>
+                    </div>
+                    <div class="breaking-news-h">
+                        <h1>അർധ സെഞ്ച്വറി നേടി ധവാൻ</h1>
+                    </div>
+                    <div class="breaking-readmore">  
+                        <a href="./news/" class="spotlight-readmore">Read More</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="spotlight-section spotlight-container overlay">
+            <div class="spotlight-text">
+                <div class="breaking-news">
+                    <div class="breaking-news-h">
+                        <h1>ഐ പി എല്ലിൽ അര്‍ധ സെഞ്ച്വറിൽ </h1>
+                    </div>
+                    <div class="breaking-news-h">
+                        <h1>അർധ സെഞ്ച്വറി നേടി ധവാൻ</h1>
+                    </div>
+                    <div class="breaking-readmore">  
+                        <a href="./news/" class="spotlight-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spotlight-section spotlight-container overlay">
+            <div class="spotlight-text">
+                <div class="breaking-news">
+                    <div class="breaking-news-h">
+                        <h1>ഐ പി എല്ലിൽ അര്‍ധ സെഞ്ച്വറിൽ </h1>
+                    </div>
+                    <div class="breaking-news-h">
+                        <h1>അർധ സെഞ്ച്വറി നേടി ധവാൻ</h1>
+                    </div>
+                    <div class="breaking-readmore">  
+                        <a href="./news/" class="spotlight-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spotlight-section spotlight-container overlay">
+            <div class="spotlight-text">
+                <div class="breaking-news">
+                    <div class="breaking-news-h">
+                        <h1>ഐ പി എല്ലിൽ അര്‍ധ സെഞ്ച്വറിൽ </h1>
+                    </div>
+                    <div class="breaking-news-h">
+                        <h1>അർധ സെഞ്ച്വറി നേടി ധവാൻ</h1>
+                    </div>
+                    <div class="breaking-readmore">  
+                        <a href="./news/" class="spotlight-readmore">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <main class="main-section">
         <div class="ad-banner-1">
         </div>
@@ -430,7 +477,7 @@
                 <div class="webstories-h">
                     <h1>WEBSTORIES</h1>
                 </div>
-                <div class="webstories-main flex owl-carousel">
+                <div class="webstories-main flex owl-carousel-1 owl-carousel">
                     <div class="webstories-c">
                         <a href="#"><img src="./images/Rectangle 261.png" alt=""></a>
                     </div>
@@ -545,13 +592,19 @@
     <script src="./scripts/main.js"></script>
     <script>
         $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $(".owl-carousel-1").owlCarousel({
             items:4,
             loop:true,
             margin:10,
             center:true
         });
-        
+        $(".owl-carousel-2").owlCarousel({
+            items:1,
+            loop:true,
+            center:true,
+            autoplay:true,
+            autoplayTimeout:3000
+        });
         });
     </script>
 </body>
